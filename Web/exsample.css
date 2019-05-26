@@ -1,0 +1,108 @@
+body {
+	color: white;
+	font-family: cursive;
+	background-image: url("photos/background.png");
+	background-size: 100%;
+}
+
+img{
+	height: 50px;
+	width: 50px;
+}
+
+p {
+	margin: 5px;
+}
+
+button{
+	background-color:  #78CEFD;
+	font-size: 20px;
+}
+
+.navbar {
+	background-color: #b3b3b3;
+	color: #b3b3b3;
+	font-size: 60px;
+	opacity: 0.6;
+}
+
+#login-button {
+	position: absolute;
+	color: #78CEFD;
+	text-decoration: none;
+	font-size: 50px;
+	left: 92%;
+	bottom: 91%;
+	border: 2px solid white;
+	border-radius: 8px;
+}
+
+#login-button:hover {
+	color: white;
+	border: 2px solid #78CEFD;
+}
+
+
+.home-button {
+	color: #78CEFD;
+	text-decoration: none;
+	font-size: 50px;
+	position: absolute;
+	bottom: 91%;
+}
+.home-button:hover {
+	color: white;
+}
+
+.info {
+	font-family: arial;
+	margin-top: 15%;
+}
+#info-background {
+	width: 50%;
+}
+#info-text {
+	position: absolute;
+	left: 26%;
+	bottom: 20%;
+}
+.signup-button{
+color: #78CEFD;
+	text-decoration: none;
+	font-size: 50px;
+	left: 92%;
+	bottom: 91%;
+	border: 2px solid white;
+	border-radius: 8px;
+	margin-bottom: 5px;
+}
+
+.signup-button:hover {
+	color: white;
+	border: 2px solid #78CEFD;
+}
+
+.logo {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        display: inline-block;
+    }
+    .logo .img-top {
+        display: none;
+        position: absolute;
+        top: 5.5px;
+        left: 0;
+        z-index: 99;
+    }
+     .logo:hover .img-top{
+        display: inline;
+    }
+
+    #product-info {
+    		position: absolute;
+    		left: 110%;
+			bottom: 20%;
+    }
+    
+   

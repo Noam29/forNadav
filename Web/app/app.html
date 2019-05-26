@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Werehouse manegment</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Products <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Users</a>
+            <a class="nav-item nav-link" href="#">Profile</a>
+            <a class="nav-item nav-link" href="#">Log Out</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+      <h1 class="display-4">Products List</h1>
+      <br>
+
+      <form id="productInfo">
+	    <div class="form-row align-items-center">
+		    <div class="col-auto">
+		      <label class="sr-only" for="inlineFormInput">Name</label>
+		      <input type="text" class="form-control mb-2" id="nameInput" placeholder="Product Name">
+		    </div>
+		    <div class="col-auto">
+		      <label class="sr-only" for="inlineFormInput">Stock</label>
+		      <input type="text" class="form-control mb-2" id="stockInput" placeholder="Product Amount">
+		    </div>
+		    <div class="col-auto">
+		        <button id="add" type="button" class="btn btn-outline-success mb-2">Add row</button>
+		    </div>
+	    </div>
+	  </form>
+      <br>
+      <table class="table table-hover" id="products">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Stock</th>
+            <th scope="col">Pending</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!--<tr id="rmv1">
+            <th scope="row">1</th>
+            <td>8GB x4 Ram Sticks</td>
+            <td>33</td>
+            <td>2</td>
+            <td>
+            	<button id="rmv1" type="button" class="btn btn-outline-danger">remove</button>
+            	<button type="button" class="btn btn-outline-info">Info</button>
+            </td>
+          </tr>
+          <tr id="rmv2">
+            <th scope="row">2</th>
+            <td>Intel i7 8700K 4.0Ghz</td>
+            <td>11</td>
+            <td>5</td>
+            <td>
+            	<button id="rmv2" type="button" class="btn btn-outline-danger">remove</button>
+            	<button type="button" class="btn btn-outline-info">Info</button>
+            </td>
+          </tr>
+          <tr id="rmv3">
+            <th scope="row">3</th>
+            <td>Full Tower Case ATX</td>
+            <td>6</td>
+            <td>1</td>
+            <td>
+            	<button id="rmv3" type="button" class="btn btn-outline-danger">remove</button>
+            	<button type="button" class="btn btn-outline-info">Info</button>
+            </td>  -->
+        </tbody>
+      </table>
+    </div>
+
+    <nav aria-label="Page navigation example">
+	  <ul class="pagination justify-content-center">
+	    <li class="page-item disabled">
+	      <a class="page-link" href="#" tabindex="-1">Previous</a>
+	    </li>
+	    <li class="page-item"><a class="page-link" href="#">1</a></li>
+	    <li class="page-item">
+	      <a class="page-link" href="#">Next</a>
+	    </li>
+	  </ul>
+	</nav>
+
+
+
+	<script type="text/javascript" src="app.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
